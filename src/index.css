@@ -1,0 +1,23 @@
+:root {
+  --color-theme-1: #3ad5f4;
+  --color-theme-2: #a43cf0;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(to right, var(--color-theme-1), var(--color-theme-2));
+  font-family: 'Roboto Mono', sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+textarea {
+  resize: none
+}

@@ -1,0 +1,80 @@
+.profile {
+    height: 100vh;
+  }
+  .wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .grid {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .grid h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .group {
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .group label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .group input:focus {
+    border-color: var(--color-theme-2);
+    outline: none;
+  }
+  .group .icon {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    height: calc(100% - 10px);
+    aspect-ratio: 1 / 1;
+    border-radius: 5px;
+font-size: 16px;
+    border: 1px solid var(--color-theme-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .save {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, var(--color-theme-1), var(--color-theme-2));
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  

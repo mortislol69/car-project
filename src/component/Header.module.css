@@ -1,0 +1,55 @@
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4em;
+    background: #fff;
+    
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    background: linear-gradient(to right, var(--color-theme-1), var(--color-theme-2));
+    background-clip: text;
+    text-transform: uppercase;
+    color: transparent;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+
+}
+.link:hover{
+    color: var(--color-theme-2);
+}
+.link.active {
+    color: var(--color-theme-2);
+
+}
+.authBtn {
+    background: linear-gradient(to right, var(--color-theme-1), var(--color-theme-2));
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: calc(infinity * 1px);
+    border: none;
+}
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.user img {
+    height: 2em;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}

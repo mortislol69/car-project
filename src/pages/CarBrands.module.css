@@ -1,0 +1,5 @@
+.grid {
+    padding: 2em 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}

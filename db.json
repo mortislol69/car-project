@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": "d800",
+      "username": "grig_8800",
+      "email": "grig@gmail.com",
+      "name": "Grig",
+      "lastname": "Gyunashyan",
+      "password": "321"
+    },
+    {
+      "id": "263b",
+      "username": "mkhitar123",
+      "password": "123"
+    },
+    {
+      "id": "8c34",
+      "username": "alex",
+      "password": "123"
+    },
+    {
+      "id": "76c7",
+      "username": "mkhitar",
+      "password": "321"
+    }
+  ],
+  "cars": [
+    {
+      "name": "Mercedes Benz",
+      "img": "https://www.cnet.com/a/img/resize/d8234dd453a02738afbfbf6066110cae77e03d4b/hub/2019/05/29/d8f97c81-63ca-4ece-9c14-a7aac0d1482a/mercedes-benz-s-class-s560-coupe-2019-4260.jpg?auto=webp&width=768",
+      "logo": "https://pngimg.com/d/mercedes_logos_PNG1.png",
+      "desc": "",
+      "id": "732e"
+    }
+  ],
+  "contact": []
+}
